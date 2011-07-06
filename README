@@ -3,3 +3,4 @@ ToDo:
 1. Time delay for booting DJs from queue
 2. Master jumps on open DJ slots to hold for next queuer.
 3. Add local storage, so reloading the extension doesn't kill the current queue.
+4. Remove user from queue if they become a DJ.
