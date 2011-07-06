@@ -1,0 +1,56 @@
+ul, li { margin: 0; padding: 0; }
+
+.qm-menu {
+  position: absolute;
+  top: 99px;
+  left: 10px;
+  z-index: 20000;
+  font-size: .75em;
+  color: #503C03;
+  border-top: 1px solid #BF9E2C;
+}
+
+.qm-menu-button {
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E4BE34), to(#DFAF2D));
+  padding: .25em .5em;
+  cursor: pointer;
+}
+
+.qm-menu-button img {
+  vertical-align: top;
+  float: left;
+}
+
+.qm-menu-button.down {
+  background-image: url(/img/bullet-arrow-up.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 20px;
+}
+
+.qm-menu-content {
+  display: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E4BE34), to(#DFAF2D));
+}
+
+.qm-menu-label {
+  font-weight: bold;
+}
+
+.qm-menu-value {
+  cursor: pointer;
+}
+
+.qm-menu-value:hover {
+  font-weight: bold;
+}
+
+.qm-menu-content ul {
+  list-style: none;
+}
+
+.qm-menu-content ul li {
+  padding: .25em .5em;
+}
